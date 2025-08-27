@@ -1,0 +1,20 @@
+[
+  {
+    "id": "doc1",
+    "content": "Urgent dental policy details for Texas.",
+    "metadata": {
+      "policy_type": "dental",
+      "urgency": "urgent",
+      "region": "Texas"
+    }
+  },
+  {
+    "id": "doc2",
+    "content": "Routine health policy for California.",
+    "metadata": {
+      "policy_type": "health",
+      "urgency": "routine",
+      "region": "California"
+    }
+  }
+]
