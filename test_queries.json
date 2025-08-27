@@ -1,0 +1,41 @@
+[
+  {
+    "query": "Show me dental claims that are marked urgent in Texas",
+    "expected_filters": {
+      "policy_type": "dental",
+      "urgency": "urgent",
+      "region": "Texas"
+    }
+  },
+  {
+    "query": "Find auto insurance policies with routine processing in California",
+    "expected_filters": {
+      "policy_type": "auto",
+      "urgency": "routine",
+      "region": "California"
+    }
+  },
+  {
+    "query": "List all health-related claims in New York that need immediate attention",
+    "expected_filters": {
+      "policy_type": "health",
+      "urgency": "urgent",
+      "region": "New York"
+    }
+  },
+  {
+    "query": "Retrieve dental policy documents for Michigan",
+    "expected_filters": {
+      "policy_type": "dental",
+      "region": "Michigan"
+    }
+  },
+  {
+    "query": "Get claims that are pending for commercial clients in Illinois",
+    "expected_filters": {
+      "status": "pending",
+      "client_type": "commercial",
+      "region": "Illinois"
+    }
+  }
+]
